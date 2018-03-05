@@ -35,11 +35,11 @@
 	print_r($tableauXXL);
 	
 	echo "</div>";
-	
-	
 	?>
 
-
+<?php 
+foreach($tableauXXL as $eleves)
+?>
 
 
 
