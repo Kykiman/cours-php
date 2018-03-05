@@ -32,7 +32,7 @@
 	<?php 
 	echo "<div>";
 		
-	print_r ($tableauXXL);
+	print_r($tableauXXL);
 	
 	echo "</div>";
 	
