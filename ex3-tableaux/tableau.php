@@ -38,7 +38,11 @@
 	?>
 
 <?php 
-foreach($tableauXXL as $eleves)
+foreach($tableauXXL as $cle => $element)
+{
+	echo '[' . $cle . '] vaut ' . $element . '<br />';
+}
+
 ?>
 
 
