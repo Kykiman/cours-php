@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>formulaire</title>
+</head>
+
+<body>
+    <h1>Sondage</h1>
+    <form method="POST" action="resultat.php">
+        <p>
+            <label for="pseudo">Votre pseudo :</label>
+            <input type="text" name="pseudo" id="pseudo">
+        </p>
+        <p>
+            <label for="semaineDeTravail">Etes-vous pour la semaine de 20 heures de travail ?</label>
+            <br />
+            <select name="semaineDeTravail" id="semaineDeTravail">
+                <option value="totalement">Totalement</option>
+                <option value="mouais">Mouais</option>
+                <option value="bof">Bof</option>
+                <option value="pas du tout">Pas du tout</option>
+            </select>
+        </p>
+        <p>
+            <label for="age">Quel est l'age du capitaine</label>
+            <input type="number" name="age" id="age" min="18" max="100">
+        </p>
+        <p>
+            <label for="color">Quel est ta couleur préfèrée ?</label>
+            <input type="color" name="color" id="color">
+        </p>
+        <p>
+            <label for="genre">Vous êtes du genre :</label>
+            <p>
+                <input type="radio" name="genre" value="homme" id="homme" />
+                <label for="homme">Un homme</label>
+                <input type="radio" name="genre" value="femme" id="femme" />
+                <label for="femme">Une femme</label>
+                <input type="radio" name="genre" value="caillou" id="caillou" />
+                <label for="caillou">Un caillou</label>
+            </p>
+        </p>
+        <p>
+            <input type="checkbox" name="condition" id="condition"> <label for="condition">J'accèpte les conditions générales.</label>
+        </p>
+        <p>
+            <input type="submit" value="Envoyer" />
+        </p>
+    </form>
+</body>
+
+</html>
