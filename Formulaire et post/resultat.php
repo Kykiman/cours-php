@@ -37,10 +37,10 @@ $condition = isset($_POST["condition"]);
         <h1>Votre couleur :</h1>
         <div class="couleur"></div>  
         <img src=<?php 
-                    if($genre===homme){
+                    if($genre==='homme'){
                         echo '"homme.jpg"';
                     }
-                    elseif($genre===femme){
+                    elseif($genre==='femme'){
                         echo '"femme.jpg"';
                     }
                     else{
