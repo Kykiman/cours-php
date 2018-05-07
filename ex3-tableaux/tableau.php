@@ -38,7 +38,7 @@
 	?>
 
 <?php 
-foreach($tableauXXL as $cle => $element)
+foreach($tableauXXL as $cle => "prenom")
 {
 	echo '[' . $cle . '] vaut ' . $element . '<br />';
 }
